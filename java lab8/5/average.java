@@ -18,7 +18,7 @@ public class average {
         System.out.println("Max :" + max);
     }
 
-    public static void average(int c[]) {
+    public static void average1(int c[]) {
         int sum = 0;
         for (int i = 0; i < 10; ++i) {
             sum = sum + c[i];
@@ -30,6 +30,6 @@ public class average {
         int[] num = {3, 5, 1, 8, 4, 6, 2, 9, 7, 0};
         min(num);
         max(num);
-        average(num);
+        average1(num);
     }
 }

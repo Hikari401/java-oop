@@ -14,5 +14,6 @@ public class test{
             else {
                 System.out.println("Other than 1 or 2");
             }
+            input.close();;
         }
     }
